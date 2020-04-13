@@ -29,9 +29,9 @@ Stylet et capteurs multipoints|Wacom Co|Fonctionnel
 Chispet audio|Realtek ALC257|Fonctionnel
 Camera integre|Chicony Electronics 720p|Fonctionnel
 Microphone integre|Spécification inconnue|Fonctionnel
-TouchPad|Spécification inconnue|*Partiellement Fonctionnel*
+TouchPad|Spécification inconnue|*Partiellement fonctionnel*
 TrackPoint|Spécification inconnue|*Fonctionnel avec [SmartScroll]*
-Clavier|Spécification inconnue, QWERTY, sans retro-eclerage|*Partiellement Fonctionnel*
+Clavier|Spécification inconnue, QWERTY, sans retro-eclerage|*Partiellement fonctionnel*
 USB2.0 & 3.0 & USB-C|Intel Corporation USB 3.0 xHCI Controller (rev 21)|Fonctionnel
 Lecteur de cartes SD|Spécification inconnue|*Non fonctionnel*
 Lecteur d'empreinte digitale|Spécification inconnue|*Non fonctionnel*
@@ -49,15 +49,15 @@ Lecteur d'empreinte digitale|Spécification inconnue|*Non fonctionnel*
 - Installez Clover sur une clef USB (de préférence sur une seconde), sélectionnez installation UEFI seulement comme ceci:
 ![](./.img/clover-install.png)
 
-- Montez la partition EFI qui aura été crée par l'installateur de Clover.
+- Montez la partition EFI qui aura été créée par l'installateur de Clover.
 
-- Supprimez le dossier EFI qui aura été crée par l'installateur puis remplacer le par le dossier EFI de ce dépôt.
+- Supprimez le dossier EFI qui aura été créée par l'installateur puis remplacer le par le dossier EFI de ce dépôt.
 
-- Démarrez votre ordinateur avec la clef USB macOS et la cle USB Clover branche a votre ordinateur.
+- Démarrez votre ordinateur avec la clef USB macOS et la clef USB Clover branché à votre ordinateur.
 
 - Installez macOS.
 
-- Installez Clover sur votre nouveau macOS, montez la partition EFI qui aura été crée par l'installateur de Clover, supprimez le dossier EFI qui aura été crée par l'installateur puis remplacer le par le dossier EFI de ce dépôt.
+- Installez Clover sur votre nouveau macOS, montez la partition EFI qui aura été créée par l'installateur de Clover, supprimez le dossier EFI qui aura été créée par l'installateur puis remplacer le par le dossier EFI de ce dépôt.
 
 - Réactivez le WLAN WIFI dans le BIOS.
 
@@ -69,7 +69,9 @@ Vous pouvez par la suite activer FileVault après l'installation de macOS ou bie
 
 - Certaines touches du clavier ne sont pas mappées correctements comme la touche [Delete].
 
-- Pas de détection de la fermeture du capot de l'écran (pas de mise en veille dans ce cas de figure).
+- Pas de détection de la fermeture du capot de l'écran (pas de mise en veille automatique dans ce cas de figure).
+
+- Pas de détection du changement d'orientation de l'ordinateur via l'accéléromètre.
 
 - Pas de lecture d'empreintes digitales.
 
