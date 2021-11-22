@@ -1,6 +1,6 @@
 # Hackintosh (macOS) sur Lenovo ThinkPad L380 Yoga avec Clover
 
-Ce dépôt contient un exemple de configuration pour exécuter grâce au chargeur de démarrage OpenCore le système d'exploitation macOS (Big Sur 10.0.1) sur un **Lenovo ThinkPad L380 Yoga**.
+Ce dépôt contient un exemple de configuration pour exécuter grâce au chargeur de démarrage OpenCore le système d'exploitation macOS (Monterey beta) sur un **Lenovo ThinkPad L380 Yoga**.
 
 Cet exemple de configuration pourrait **possiblement** et **partiellement** voir totalement compatible avec les ordinateurs suivants :
 
