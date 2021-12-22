@@ -1,4 +1,4 @@
-# Hackintosh (macOS) sur Lenovo ThinkPad L380 Yoga avec Clover
+# Hackintosh (macOS) sur Lenovo ThinkPad L380 Yoga avec OpenCore
 
 Ce dépôt contient un exemple de configuration pour exécuter grâce au chargeur de démarrage OpenCore le système d'exploitation macOS (Monterey beta) sur un **Lenovo ThinkPad L380 Yoga**.
 
@@ -10,7 +10,7 @@ Cet exemple de configuration pourrait **possiblement** et **partiellement** voir
 - X380
 - X390
 
-## Configuration utilise
+## Configuration utilise :
 
 #### Lenovo ThinkPad L380 Yoga
 
@@ -38,7 +38,7 @@ Lecteur d'empreinte digitale|Spécification inconnue|*Non fonctionnel*
 
 [SmartScroll]: https://www.marcmoini.com/sx_fr.html
 
-## Installation
+## Installation :
 
 - Désactivez le Secure Boot dans le BIOS.
 
@@ -60,7 +60,7 @@ Lecteur d'empreinte digitale|Spécification inconnue|*Non fonctionnel*
 
 Vous pouvez par la suite activer FileVault après l'installation de macOS ou bien plus tard, ce dernier marche parfaitement.
 
-## Problèmes
+## Problèmes :
 
 - Certaines touches du clavier ne sont pas mappées correctements comme la touche [Delete].
 
@@ -70,6 +70,6 @@ Vous pouvez par la suite activer FileVault après l'installation de macOS ou bie
 
 - Pas de lecteur de cartes SD.
 
-## Crédits
+## Crédits :
 
 https://github.com/seven-of-eleven/Lenovo-ThinkPad-L13-Yoga-Hackintosh
